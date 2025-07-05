@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+authors:
+  - family-names: Agrawal
+    given-names: Chirag
+    orcid: https://orcid.org/0000-0000-0000-0000
+title: Speech Emotion Recognition
+version: 1.0.0
+date-released: 2025-07-04
+keywords:
+  - speech emotion recognition
+  - audio analysis
+  - MFCC
+  - affective computing
+  - machine learning
+  - deep learning
+  - emotion detection
+abstract: >
+  This repository presents a comprehensive Speech Emotion Recognition (SER) framework that employs various machine learning and deep learning techniques to accurately detect and classify human emotions from speech. The framework utilizes multiple datasets, including RAVDESS, TESS, CREMA-D, and a custom dataset, covering a diverse range of emotions such as neutral, calm, happy, sad, angry, fear, disgust, pleasant surprise, and boredom. Feature extraction is performed using widely adopted audio features such as MFCC, Chromagram, MEL Spectrogram, Spectral Contrast, and Tonnetz. The repository supports grid search for hyperparameter tuning and offers various classifiers and regressors such as SVC, RandomForest, GradientBoosting, KNeighbors, MLP, Bagging, and RNNs. The developed SER system demonstrates strong accuracy in emotion classification, making it a valuable tool for research and applications in affective computing.
+repository-code: https://github.com/chirgamiyy/emotion-recognition-using-speech
+license: MIT

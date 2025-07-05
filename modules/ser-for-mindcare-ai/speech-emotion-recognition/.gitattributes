@@ -1,0 +1,14 @@
+# Normalize text files to LF line endings
+* text=auto
+
+# Git LFS: Track model files
+*.pkl filter=lfs diff=lfs merge=lfs -text
+
+# Binary files (no LFS needed but prevent diffing)
+*.wav binary
+*.mp3 binary
+*.pt binary
+
+# Python and Markdown files as text (optional but safe)
+*.py text eol=lf
+*.md text eol=lf
